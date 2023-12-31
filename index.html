@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Huddle landing page with single introductory section</title>
+
+  <link rel="stylesheet" href="output.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+</head>
+
+<body>
+
+  <!-- Parent container -->
+  <div class="flex flex-col min-h-screen bg-primary-violet
+  bg-[url('images/bg-mobile.svg')] md:bg-[url('images/bg-desktop.svg')] 
+  bg-no-repeat bg-cover">
+
+    <!-- Header  -->
+    <header class=" p-4 md:p-12 ">
+      <img src="images/logo.svg" alt="logo">
+    </header>
+
+    <!-- hero image and main content container -->
+    <section class="flex-1 md:flex p-8 md:p-12 md:gap-12">
+
+      <!-- hero image -->
+      <div class="w-full  md:w-1/2 pb-6">
+        <img src="images/illustration-mockups.svg" alt="mockup">
+      </div>
+
+      <!-- main -->
+      <main class="w-full md:w-1/2 text-white text-center space-y-4 md:text-left md:space-y-8">
+        <h1 class="font-semibold text-2xl md:pt-12 md:text-4xl"> Build The Community <br> Your Fans Will Love</h1>
+
+        <p class="text-sm"> Huddle re-imagines the way we build communities. You have a voice, but so does your
+          audience.Create
+          connections with your users as you engage in genuine discussion.</p>
+
+        <button
+          class="bg-white rounded-full text-black px-4 w-1/2 py-2 text-xs md:w-1/4 md:py-3 md:text-sm hover:bg-primary-soft-magenta  hover:text-white">Register</button>
+
+      </main>
+
+    </section>
+
+    <!-- footer -->
+    <footer class="p-4 flex items-center justify-center gap-4 md:justify-end md:px-12">
+      <!-- Brand icon -->
+      <div
+        class="flex items-center justify-center w-7 h-7 border border-white rounded-full hover:border-primary-soft-magenta">
+        <i class="fab fa-facebook text-white hover:text-primary-soft-magenta"></i>
+      </div>
+      <div
+        class="flex items-center justify-center w-7 h-7 border border-white rounded-full hover:border-primary-soft-magenta">
+        <i class="fab fa-twitter text-white hover:text-primary-soft-magenta"></i>
+      </div>
+      <div
+        class="flex items-center justify-center w-7 h-7 border border-white rounded-full hover:border-primary-soft-magenta">
+        <i class="fab fa-instagram text-white hover:text-primary-soft-magenta"></i>
+      </div>
+    </footer>
+  </div>
+
+
+
+
+
+
+
+</body>
+
+</html>
